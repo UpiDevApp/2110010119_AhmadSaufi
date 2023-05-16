@@ -12,4 +12,12 @@ public class Desa {
     public Integer id_desa;
     public String nama_desa;
     public Integer id_kecamatan;
+    
+    
+    public Integer Getid_desa(){
+        return this.id_desa;
+    }
+    public String Getnamadesa(){
+        return this.nama_desa;
+    }
 }

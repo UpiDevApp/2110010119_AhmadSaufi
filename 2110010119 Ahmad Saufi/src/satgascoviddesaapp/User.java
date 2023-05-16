@@ -23,122 +23,123 @@ public class User {
     public String password;
     public String valid;
     public String photo;
-    
-    
+
     // method
-    public void tampilkanKata(){
-        System.out.println("ini adalah "+ id_user);
+    public void tampilkanKata() {
+        System.out.println("data saat ini " + id_user);
     }
-    
+
     // Method get dan set di bawah ini
-    public Integer GetId_user(){
+    public Integer GetId_user() {
         return this.id_user;
     }
-    public void SetId_user(Integer Pengguna){
-        id_user=Pengguna;
+
+    public void SetId_user(Integer Pengguna) {
+        id_user = Pengguna;
     }
-    
-    
-    public String Getnama(){
+
+    public String Getnama() {
         return this.nama;
     }
-     public void SetNama(String NamaPengguna){
-        nama=NamaPengguna;
+
+    public void SetNama(String NamaPengguna) {
+        nama = NamaPengguna;
     }
-    
-     
-    public Integer GetNik(){
+
+    public Integer GetNik() {
         return this.nik;
     }
-    public void SetNik(Integer Nik){
-        nik=Nik;
+
+    public void SetNik(Integer Nik) {
+        nik = Nik;
     }
-    
-    public String Getjk(){
+
+    public String Getjk() {
         return this.jk;
     }
-    public void Setjk(String jenis_kelamin){
-        jk=jenis_kelamin;
+
+    public void Setjk(String jenis_kelamin) {
+        jk = jenis_kelamin;
     }
-    
-    
-     public String GetTempatLahir(){
+
+    public String GetTempatLahir() {
         return this.tempat_lahir;
     }
-     public void SetTempatLahir(String Tempat_lahir){
-        tempat_lahir=Tempat_lahir;
+
+    public void SetTempatLahir(String Tempat_lahir) {
+        tempat_lahir = Tempat_lahir;
     }
-    
-     
-    public String GetAlamat(){
-        return this.alamat;     
+
+    public String GetAlamat() {
+        return this.alamat;
     }
-    public void Setalamat(String Alamat){
-        alamat=Alamat;
+
+    public void Setalamat(String Alamat) {
+        alamat = Alamat;
     }
-    
-    
-    public String GetTtl(){
+
+    public String GetTtl() {
         return this.tgl_lahir;
     }
-    public void SetTtl(String Tempatlahir){
-       tempat_lahir=Tempatlahir;
+
+    public void SetTtl(String Tempatlahir) {
+        tempat_lahir = Tempatlahir;
     }
-     
-    
-    public Integer Getid_desa(){
+
+    public Integer Getid_desa() {
         return this.id_desa;
     }
-    public void Setid_desa(Integer Id_desa){
+
+    public void Setid_desa(Integer Id_desa) {
         id_desa = Id_desa;
-                
+
     }
-    
-    
-    public String GetEmail(){
+
+    public String GetEmail() {
         return this.email;
     }
-    public void SetEmail(String Email){
-        email=Email;
+
+    public void SetEmail(String Email) {
+        email = Email;
     }
-    
-    
-    public String Getlevel(){
+
+    public String Getlevel() {
         return this.level;
     }
-    public void Setlevel(String Level){
-        level=Level;
+
+    public void Setlevel(String Level) {
+        level = Level;
     }
-     
-    
-    public String Getusername(){
+
+    public String Getusername() {
         return this.username;
     }
-    public void Setusername(String Username){
+
+    public void Setusername(String Username) {
         username = Username;
     }
-    
-    
-    public String Getpassword(){
+
+    public String Getpassword() {
         return this.password;
     }
-    public void Setpassword(String Password){
-        password=Password;
+
+    public void Setpassword(String Password) {
+        password = Password;
     }
-    
-    
-    public String Getvalid(){
+
+    public String Getvalid() {
         return this.valid;
     }
-    public void Setvalid(String Valid){
-        valid= Valid;
+
+    public void Setvalid(String Valid) {
+        valid = Valid;
     }
-    
-    
-    public String Getphoto(){
+
+    public String Getphoto() {
         return this.photo;
     }
-    public void Setphoto(String Gambar){
-        photo=Gambar;
+
+    public void Setphoto(String Gambar) {
+        photo = Gambar;
     }
 }

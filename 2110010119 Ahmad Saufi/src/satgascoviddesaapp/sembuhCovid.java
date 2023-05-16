@@ -16,4 +16,23 @@ public class sembuhCovid {
     public Integer id_user;
     public String create_date;
     public Integer id_desa;
+    
+    public Integer Getid() {
+      return this.id;
+   }
+    public Integer Getid_pasien(){
+      return this.id_pasien;
+   }
+    public String Gettanggal() {
+      return this.tanggal;
+   }
+    public Integer Getid_user() {
+      return this.id_user;
+   }
+    public String Getcreate_date(){
+      return this.create_date;
+   }
+    public Integer Getid_desa() {
+      return this.id_desa;
+   }
 }

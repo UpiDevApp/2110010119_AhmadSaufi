@@ -13,4 +13,14 @@ public class DataLogin {
     public String email;
     public String akses;
     public Integer id_user;
+    
+    public String Getusername(){
+        return this.username;
+    }
+    public String Getemail(){
+        return this.email;
+    }
+    public String Getakses(){
+        return this.akses;
+    }
 }

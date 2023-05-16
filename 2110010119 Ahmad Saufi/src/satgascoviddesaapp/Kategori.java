@@ -11,4 +11,13 @@ package satgascoviddesaapp;
 public class Kategori {
     public Integer id_kategori;
     public String kategori;
+    
+    
+    public Integer Getid_kategori(){
+        return this.id_kategori;
+    }
+    
+    public String Getkategori(){
+        return this.kategori;
+    }
 }

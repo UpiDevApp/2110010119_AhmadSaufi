@@ -10,36 +10,29 @@ package satgascoviddesaapp;
  */
 public class SatgasCovidDesaApp {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       // ada 15 Object
-       User user = new User();
-       Kegiatan kegiatan = new Kegiatan();
-       AduanCovid aduan = new AduanCovid();
-       AduanResponCovid aduanrespon = new AduanResponCovid();
-       DataLogin datalogin = new DataLogin();
-       Bantuan bantuan = new Bantuan();
-       Kategori katagori = new Kategori();
-       Berita berita = new Berita();
-       Pasien pasien = new Pasien();
-       Desa desa = new Desa();
-       Odp odp = new Odp();
-       Pdp pdp = new Pdp();
-       PositifCovid positif = new PositifCovid();
-       sembuhCovid sembuh = new sembuhCovid();
-       Meninggal meninggal = new Meninggal();
-       
-       
-       
-       
-       
-       
-       
-       
-       // memangil method
-         user.tampilkanKata();
-    }
-    
+  /**
+   * @param args the command line arguments
+   */
+  public static void main(String[] args) {
+    // ada 15 Object
+    User user = new User();
+    Kegiatan kegiatan = new Kegiatan();
+    AduanCovid aduan = new AduanCovid();
+    AduanResponCovid aduanrespon = new AduanResponCovid();
+    DataLogin datalogin = new DataLogin();
+    Bantuan bantuan = new Bantuan();
+    Kategori katagori = new Kategori();
+    Berita berita = new Berita();
+    Pasien pasien = new Pasien();
+    Desa desa = new Desa();
+    Odp odp = new Odp();
+    Pdp pdp = new Pdp();
+    PositifCovid positif = new PositifCovid();
+    sembuhCovid sembuh = new sembuhCovid();
+    Meninggal meninggal = new Meninggal();
+
+    // memangil method
+    user.tampilkanKata();
+  }
+
 }
