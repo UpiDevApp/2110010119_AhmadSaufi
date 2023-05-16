@@ -16,11 +16,15 @@ public class DataLogin {
     
     public String Getusername(){
         return this.username;
-    }
-    public String Getemail(){
+    } 
+    public String GetEmail(){
         return this.email;
     }
     public String Getakses(){
         return this.akses;
     }
+    public Integer GetId_user(){
+        return this.id_user;
+    }
+    
 }

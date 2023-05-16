@@ -18,4 +18,32 @@ public class AduanCovid {
     public Integer user;
     public String create_data;
     public String update_date;
+    
+public Integer Getid_laporan(){
+    return this.id_laporan;
+}
+public String Getnomor_aduan(){
+    return this.nomor_aduan;
+}
+public String Getjudul(){
+    return this.judul;
+}
+public String Getisi(){
+    return this.isi;
+}
+public String Getfile(){
+    return this.file;
+}
+public String Getstatus(){
+    return this.status;
+}
+public Integer Getuser(){
+    return this.user;
+}
+public String Getcreate_date(){
+    return this.create_data;
+}
+public String Getupdate_date(){
+    return this.update_date;
+}
 }

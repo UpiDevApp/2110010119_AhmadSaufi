@@ -17,7 +17,7 @@ public class sembuhCovid {
     public String create_date;
     public Integer id_desa;
     
-    public Integer Getid() {
+      public Integer Getid() {
       return this.id;
    }
     public Integer Getid_pasien(){
@@ -26,6 +26,9 @@ public class sembuhCovid {
     public String Gettanggal() {
       return this.tanggal;
    }
+    public String Getketerangan(){
+      return this.keterangan;
+    }
     public Integer Getid_user() {
       return this.id_user;
    }

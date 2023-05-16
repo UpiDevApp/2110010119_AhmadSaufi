@@ -16,7 +16,6 @@ public class Kategori {
     public Integer Getid_kategori(){
         return this.id_kategori;
     }
-    
     public String Getkategori(){
         return this.kategori;
     }

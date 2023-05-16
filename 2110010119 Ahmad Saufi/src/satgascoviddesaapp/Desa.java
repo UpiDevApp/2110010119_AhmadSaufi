@@ -13,11 +13,13 @@ public class Desa {
     public String nama_desa;
     public Integer id_kecamatan;
     
-    
     public Integer Getid_desa(){
         return this.id_desa;
     }
-    public String Getnamadesa(){
+    public String Getnama_desa(){
         return this.nama_desa;
+    }
+    public Integer id_kecamatan(){
+        return this.id_kecamatan;
     }
 }

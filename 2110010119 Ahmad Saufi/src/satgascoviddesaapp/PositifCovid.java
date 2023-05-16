@@ -17,22 +17,22 @@ public class PositifCovid {
     public String create_date;
     public Integer id_desa;
     
-    public Integer Getid() {
+     public Integer Getid() {
       return this.id;
    }
-    public Integer Getid_pasien() {
+    public Integer Getid_pasien(){
       return this.id_pasien;
    }
     public String Gettanggal() {
       return this.tanggal;
    }
-    public String Getketerangan() {
-      return this.tanggal;
-   }
+    public String Getketerangan(){
+      return this.keterangan;
+    }
     public Integer Getid_user() {
       return this.id_user;
    }
-    public String Getcreate_date() {
+    public String Getcreate_date(){
       return this.create_date;
    }
     public Integer Getid_desa() {
