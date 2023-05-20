@@ -16,7 +16,15 @@ public class Kategori {
     public Integer Getid_kategori(){
         return this.id_kategori;
     }
+    public void SetId_user(Integer nomorkategori){
+        id_kategori=nomorkategori;
+    }
+    
+    
     public String Getkategori(){
         return this.kategori;
+    }
+    public void Setkategori(String Kategori){
+        kategori=Kategori;
     }
 }

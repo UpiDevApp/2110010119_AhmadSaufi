@@ -22,51 +22,91 @@ public class Kegiatan {
    public String create_data;
    public Integer id_admin;
     
-  public Integer GetId_kegiatan() {
+    public Integer GetId_kegiatan() {
       return this.id_kegiatan;
-   }
+    }
+    public void SetId_kegiatan(Integer nomorkegiatan){
+        id_kegiatan=nomorkegiatan;
+    }
 
-   public void SetId_kegiatan(Integer Id_kegiatan) {
-      id_kegiatan = Id_kegiatan;
-   }
+    
+    public String Getnama_kegiatan() {
+        return this.nama_kegiatan;
+    }
+    public void Setnama_kegiatan(String namakegiatan){
+        nama_kegiatan = namakegiatan;
+    }
 
-   public String Getnama_kegiatan() {
-      return this.nama_kegiatan;
-   }
+    
+    public String Gettujuan() {
+        return this.tujuan;
+    }
+    public void Settujuan(String Tujuan){
+        tujuan=Tujuan;
+    }
 
-   public String Gettujuan() {
-      return this.tujuan;
-   }
-
-   public String Getalamat() {
+    
+    public String Getalamat() {
       return this.alamat;
-   }
-
-   public String Getnama_penyelenggara() {
+    }
+    public void Setalamat(String Alamat){
+        alamat=Alamat;
+    }
+    
+    
+    public String Getnama_penyelenggara() {
       return this.nama_penyelenggara;
-   }
+    }
+    public void Setnama_penyelenggara(String namapenyelenggara){
+        nama_penyelenggara = namapenyelenggara;
+    }
 
-   public String Getkontak() {
+   
+    public String Getkontak() {
       return this.kontak;
-   }
-
-   public String Getstatus() {
+    }
+    public void Setkontak(String Kontak){
+        kontak=Kontak;
+    }
+    
+    
+    public String Getstatus() {
       return this.status;
-   }
+    }
+    public void Setstatus(String Statuskegiatan){
+        status = Statuskegiatan;
+    }
 
-   public String Gettanggalmulai() {
+   
+    public String Gettanggalmulai() {
       return this.tanggal_mulai;
-   }
-   
-   public String Gettanggalakhir() {
+    }
+    public void Settanggalmulai(String Tanggalmulai){
+        tanggal_mulai=Tanggalmulai;
+    }
+    
+    
+    public String Gettanggalakhir() {
       return this.tanggal_akhir;
-   }
+    }
+    public void Settanggalakhir(String Tanggalakhir){
+        tanggal_akhir = Tanggalakhir;
+    }
    
-   public String Getcreate_data() {
+    
+    public String Getcreate_data() {
       return this.create_data;
-   }
+    }
+    public void Setcreate_data(String membuatdata){
+        create_data=membuatdata;
+    }
    
-   public Integer Getid_admin() {
+    
+    public Integer Getid_admin() {
       return this.id_admin;
-   }
+    }
+    public void Setid_admin(Integer nomoradmin){
+        id_admin=nomoradmin;
+    }
+    
 }

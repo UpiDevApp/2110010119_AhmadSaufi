@@ -34,8 +34,8 @@ public class User {
     public Integer GetId_user(){
         return this.id_user;
     }
-    public void SetId_user(Integer Pengguna){
-        id_user=Pengguna;
+    public void SetId_user(Integer idPengguna){
+        id_user=idPengguna;
     }
     
     

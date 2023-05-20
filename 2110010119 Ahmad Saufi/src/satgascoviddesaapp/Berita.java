@@ -21,25 +21,66 @@ public class Berita {
     public Integer Getid_berita(){
         return this.id_berita;
     }
+    public void Setid_berita(Integer nomorberita) {
+        id_berita=nomorberita;
+    }
+    
+    
     public String Getjudul(){
         return this.judul;
     }
+    public void Setid_berita(String Judul) {
+        judul = Judul;
+    }
+    
+    
     public String Getisi(){
         return this.isi;
     }
+    public void Setisi(String Isi) {
+        isi = Isi;
+    }
+    
+    
+    
+    
     public String Getstatus(){
         return this.status;
     }
+    public void Setstatus(String Status) {
+        status = Status;
+    }
+    
+    
     public String Getphoto(){
         return this.photo;
-    }    
+    }
+    public void Setphoto(String Photo) {
+        photo = Photo;
+    }
+    
+    
     public Integer Getid_kategori(){
         return this.id_kategori;
     }
+    public void Setid_kategori(Integer IdKategori) {
+        id_kategori = IdKategori;
+    }
+    
+    
     public Integer Getid_user(){
         return this.id_user;
     }
+    public void SetId_user(Integer idPengguna){
+        id_user=idPengguna;
+    }
+    
+    
     public String date(){
         return this.date;
     }
+    public void Setdate(String Date){
+        date=Date;
+    }
+    
 }

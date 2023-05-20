@@ -16,10 +16,25 @@ public class Desa {
     public Integer Getid_desa(){
         return this.id_desa;
     }
+    public void SetId_desa(Integer nomordesa){
+        id_desa=nomordesa;
+    }
+    
+     
     public String Getnama_desa(){
         return this.nama_desa;
     }
+    public void Setnama_desa(String Nama_desa){
+        nama_desa=Nama_desa;
+    }
+    
+    
     public Integer id_kecamatan(){
         return this.id_kecamatan;
     }
+    public void SetId_kecamatan(Integer nomorkecamatan){
+        id_kecamatan=nomorkecamatan;
+    }
+    
+    
 }

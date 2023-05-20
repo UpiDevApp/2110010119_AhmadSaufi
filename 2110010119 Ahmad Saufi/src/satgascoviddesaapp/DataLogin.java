@@ -17,14 +17,34 @@ public class DataLogin {
     public String Getusername(){
         return this.username;
     } 
+    public void Setusername(String Username){
+        username=Username;
+    }
+    
+    
     public String GetEmail(){
         return this.email;
     }
+    public void Setemail(String Email){
+        email=Email;
+    }
+    
+    
+    
     public String Getakses(){
         return this.akses;
     }
+    public void Setakses(String Akses){
+        akses=Akses;
+    }
+    
+     
     public Integer GetId_user(){
         return this.id_user;
     }
+    public void SetId_user(Integer idPengguna){
+        id_user=idPengguna;
+    }
+    
     
 }
