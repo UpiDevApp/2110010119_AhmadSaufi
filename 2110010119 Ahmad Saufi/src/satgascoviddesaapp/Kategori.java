@@ -12,11 +12,18 @@ public class Kategori {
     public Integer id_kategori;
     public String kategori;
     
+    public void TampilkanDataKategori(){
+        System.out.println("id kategori "+ id_kategori);
+        System.out.println("Kategori "+ kategori);
+    }
+    
+   
+    
     
     public Integer Getid_kategori(){
         return this.id_kategori;
     }
-    public void SetId_user(Integer nomorkategori){
+    public void SetId_kategori(Integer nomorkategori){
         id_kategori=nomorkategori;
     }
     

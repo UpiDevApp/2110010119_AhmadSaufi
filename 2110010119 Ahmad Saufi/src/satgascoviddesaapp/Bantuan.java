@@ -12,13 +12,30 @@ public class Bantuan {
     public Integer id_bantuan;
     public Integer id_user;
     public String nama_penerima;
-    public Integer nik;
+    public long nik;
     public String nokk;
     public String alamat;
     public String file;
     public String status;
     public String create_date;
     public Integer id_admin;
+    
+    public void tampilkanDataBantuan(){
+        System.out.println("");
+        System.out.println("Data Bantuan Covid ");
+        System.out.println("id pengguna        : "+ id_user);
+        System.out.println("nama penerima      : "+ nama_penerima);
+        System.out.println("nik                : "+ nik);
+        System.out.println("nokk               : "+ nokk);
+        System.out.println("alamat bantuan     : "+ alamat);
+        System.out.println("upload file        : "+ file);
+        System.out.println("status             : "+ status);
+        System.out.println("tanggal pembuatan  : "+ create_date);
+        System.out.println("id admin           :" + id_admin);
+    }
+    
+    
+    
     
     
     public Integer Getid_bantuan(){
@@ -43,10 +60,10 @@ public class Bantuan {
         nama_penerima = namapenerima;
     }
     
-    public Integer Getnik(){
+    public long Getnik(){
         return this.nik;
     }
-    public void Setnik(Integer Nik){
+    public void Setnik(long Nik){
         nik=Nik;
     }
     

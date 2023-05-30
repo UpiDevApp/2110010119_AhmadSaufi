@@ -18,6 +18,24 @@ public class Berita {
     public Integer id_user;
     public String date;
     
+    public void tampilkanDataBerita(){
+        System.out.println("");
+        System.out.println("id berita   :"+ id_berita);
+        System.out.println("judul       :"+ judul);
+        System.out.println("isi         : "+ isi);
+        System.out.println("status      : "+ status);
+        System.out.println("photo       : "+ photo);
+        System.out.println("id kategori : "+ id_kategori);
+        System.out.println("id pengguna : "+ id_user);
+        System.out.println("tanggal     : "+ date);
+        
+    }
+    
+    
+    
+    
+    
+    
     public Integer Getid_berita(){
         return this.id_berita;
     }
@@ -29,7 +47,7 @@ public class Berita {
     public String Getjudul(){
         return this.judul;
     }
-    public void Setid_berita(String Judul) {
+    public void Setjudul(String Judul) {
         judul = Judul;
     }
     

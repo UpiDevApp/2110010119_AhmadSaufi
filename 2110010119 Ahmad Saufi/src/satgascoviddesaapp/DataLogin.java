@@ -14,6 +14,16 @@ public class DataLogin {
     public String akses;
     public Integer id_user;
     
+    public void tampilkanDataLogin(){
+        System.out.println("");
+        System.out.println("Data Login ");
+        System.out.println("id user  :"+id_user);
+        System.out.println("username :"+username);
+        System.out.println("email    :"+email);
+        System.out.println("akses    :"+akses);
+        
+        
+    }
     public String Getusername(){
         return this.username;
     } 

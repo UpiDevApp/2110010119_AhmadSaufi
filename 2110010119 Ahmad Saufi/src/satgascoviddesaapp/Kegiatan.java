@@ -21,12 +21,34 @@ public class Kegiatan {
    public String tanggal_akhir;
    public String create_data;
    public Integer id_admin;
+   
+   public void tampilkanDataKegiatan(){
+        System.out.println("");
+        System.out.println("Data Kegiatan Pemeriksaan Covid ");
+        System.out.println("id                       : "+ id_user);
+        System.out.println("nama kegiatan            : "+ nama_kegiatan);
+        System.out.println("tujuan                   : "+ tujuan);
+        System.out.println("nama penyelenggara       : "+ nama_penyelenggara);
+        System.out.println("kontak                   : "+ kontak);
+        System.out.println("status                   : "+ status);
+        System.out.println("tanggal memulai kegiatan : "+ tanggal_mulai);
+        System.out.println("tanggal akhir kegiatan   : "+ tanggal_akhir);
+        System.out.println("create data              : "+ create_data);
+        System.out.println("id admin                 : "+ id_admin);
+    }
     
     public Integer GetId_kegiatan() {
       return this.id_kegiatan;
     }
     public void SetId_kegiatan(Integer nomorkegiatan){
         id_kegiatan=nomorkegiatan;
+    }
+    
+    public Integer GetId_user(){
+        return this.id_user;
+    }
+    public void SetId_user(Integer idPengguna){
+        id_user=idPengguna;
     }
 
     

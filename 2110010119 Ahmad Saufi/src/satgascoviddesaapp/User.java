@@ -10,24 +10,39 @@ package satgascoviddesaapp;
  */
 public class User {
     private Integer id_user;
-    public String nama;
-    private Integer nik;
-    public String jk;
-    public String tempat_lahir;
-    public String alamat;
-    public String tgl_lahir;
-    public Integer id_desa;
-    public String email;
-    public String level;
-    public String username;
-    public String password;
-    public String valid;
-    public String photo;
+    private String nama;
+    private long nik;
+    private String jk;
+    private String tempat_lahir;
+    private String alamat;
+    private String tgl_lahir;
+    private Integer id_desa;
+    private String email;
+    private String level;
+    private String username;
+    private String password;
+    private String valid;
+    private String photo;
     
     
     // method
-    public void tampilkanKata(){
-        System.out.println("ini adalah "+ id_user);
+    public void tampilkanDataUser(){
+        System.out.println("DATA PENGGUNA ");
+        System.out.println("id             : "+ id_user);
+        System.out.println("nama           : "+ nama);
+        System.out.println("nik            : "+ nik);
+        System.out.println("jenis kelamin  : "+ jk);
+        System.out.println("Tempat Lahir   : "+ tempat_lahir);
+        System.out.println("Tanggal Lahir  : "+ tgl_lahir);
+        System.out.println("Alamat         : "+ alamat);
+        System.out.println("id desa        : "+ id_desa);
+        System.out.println("Email          : "+ email);
+        System.out.println("Level          : "+ level);
+        System.out.println("username       : "+ username);
+        System.out.println("password       : "+ password);
+        System.out.println("Status         : "+ valid);
+        System.out.println("Gambar         : "+ photo);
+
     }
     
     // Method get dan set di bawah ini
@@ -47,10 +62,10 @@ public class User {
     }
     
      
-    public Integer GetNik(){
+    public long GetNik(){
         return this.nik;
     }
-    public void SetNik(Integer Nik){
+    public void SetNik(long Nik){
         nik=Nik;
     }
     
@@ -78,10 +93,10 @@ public class User {
     }
     
     
-    public String GetTtl(){
+    public String GetTanggalLahir(){
         return this.tgl_lahir;
     }
-    public void SetTtl(String Tempatlahir){
+    public void SetTanggalLahir(String Tempatlahir){
        tempat_lahir=Tempatlahir;
     }
      

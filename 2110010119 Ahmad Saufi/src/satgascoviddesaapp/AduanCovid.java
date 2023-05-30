@@ -18,7 +18,22 @@ public class AduanCovid {
     public Integer user;
     public String create_data;
     public String update_date;
-   
+
+    
+    public void tampilkanDataAduanCovid(){
+        System.out.println("");
+        System.out.println("Data Aduan covid ");
+        System.out.println("nomor aduan                : "+ nomor_aduan);
+        System.out.println("judul aduan                : "+ judul);
+        System.out.println("isi                        : "+ isi);
+        System.out.println("upload file                : "+ file);
+        System.out.println("status                     : "+ status);
+        System.out.println("id pengguna                : "+ user);
+        System.out.println("tanggal membuat data       : "+ create_data);
+        System.out.println("tanggal memperbaharui data : "+ update_date);
+    }
+    
+    
     
 public Integer Getid_laporan(){
     return this.id_laporan;

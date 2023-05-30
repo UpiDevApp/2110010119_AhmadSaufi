@@ -18,27 +18,93 @@ public class SatgasCovidDesaApp {
        User user = new User();
        user.SetId_user(01);
        user.SetNama("ahmad udin");
-       user.SetNik(2111);
-       System.out.println("id pengunna : "+user.GetId_user()+"\nnama pengguna "+user.Getnama());
-    } 
-    public static void main1(String[] args) {
-       Kegiatan kegiatan = new Kegiatan(); 
-    }
-    public static void main2(String[] args) {
+       user.SetNik(5214524232532222L);
+       user.Setjk("laki-laki");
+       user.SetTempatLahir("Banjarmasin");
+       user.Setalamat("Desa 01");
+       user.SetTanggalLahir("12-08-2020");
+       user.Setid_desa(01);
+       user.SetEmail("udin@gmail.com");
+       user.Setlevel("1");
+       user.Setusername("ahmadudin");
+       user.Setpassword("1234567");
+       user.Setvalid("Positif");
+       user.Setphoto("belum di pasang");
+       //method
+       user.tampilkanDataUser();
+       
+       
+       Kegiatan kegiatan = new Kegiatan();
+       kegiatan.SetId_kegiatan(101);
+       kegiatan.SetId_user(01);
+       kegiatan.Setnama_kegiatan("Pemeriksaan covid");
+       kegiatan.Settujuan("pedesaan");
+       kegiatan.Setalamat("jl desa ");
+       kegiatan.Setnama_penyelenggara("samsul");
+       kegiatan.Setkontak("082060101201");
+       kegiatan.Setstatus("positif");
+       kegiatan.Settanggalmulai("01-02-2020");
+       kegiatan.Settanggalakhir("03-02-2020");
+       kegiatan.Setcreate_data("01-02-2020");
+       kegiatan.Setid_admin(90);
+       //method
+       kegiatan.tampilkanDataKegiatan();
+       
+       
        AduanCovid aduan = new AduanCovid(); 
-    }
-    public static void main3(String[] args) {
-        DataLogin datalogin = new DataLogin();
-    }
-    public static void main4(String[] args) {
+       aduan.Setnomor_aduan(555);
+       aduan.Setjudul("Pusat Aduan Covid");
+       aduan.Setisi("saya positif");
+       aduan.Setfile("belum ada file");
+       aduan.Setstatus("Aktif");
+       aduan.SetId_user(01);
+       aduan.Setcreate_date("02-02-2020");
+       aduan.Setupdate_date("03-02-2020");
+       //method
+       aduan.tampilkanDataAduanCovid();
+       
+       
+       DataLogin datalogin = new DataLogin();
+        datalogin.SetId_user(01);
+        datalogin.Setemail("udin@gmail.com");
+        datalogin.Setakses("Aktif");
+        datalogin.Setusername("ahmadudin");
+        // method
+        datalogin.tampilkanDataLogin();
+       
        Bantuan bantuan = new Bantuan(); 
-    }
-    public static void main5(String[] args) {
-       Kategori katagori = new Kategori();
-    }
-    public static void main6(String[] args) {
+       bantuan.SetId_user(01);
+       bantuan.Setnama_penerima("ahmad udin");
+       bantuan.Setnik(5214524232532222L);
+       bantuan.Setnokk("7015");
+       bantuan.Setalamat("Desa 01");
+       bantuan.Setfile("belum di upload");
+       bantuan.Setstatus("aktif");
+       bantuan.Setcreate_date("04-02-2020");
+       bantuan.Setid_admin(91);
+       // method
+       bantuan.tampilkanDataBantuan();
+        
+       Kategori kategori = new Kategori();
+       kategori.SetId_kategori(001);
+       kategori.Setkategori("POSITIF");
+       // method
+       kategori.TampilkanDataKategori();
+       
        Berita berita = new Berita();
-    }
+       berita.Setid_berita(10);
+       berita.Setjudul("Penanganan Covid di desa");
+       berita.Setisi("isi");
+       berita.Setstatus("aktif");
+       berita.Setid_kategori(10);
+       berita.SetId_user(01);
+       berita.Setdate("05-02-2020");
+       //method
+       berita.tampilkanDataBerita();
+    } 
+    
+   
+
     public static void main7(String[] args) {
        Pasien pasien = new Pasien();
     }
