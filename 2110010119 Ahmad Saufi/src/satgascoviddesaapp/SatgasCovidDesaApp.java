@@ -22,7 +22,7 @@ public class SatgasCovidDesaApp {
        user.Setjk("laki-laki");
        user.SetTempatLahir("Banjarmasin");
        user.Setalamat("Desa 01");
-       user.SetTanggalLahir("12-08-2020");
+       user.SetTanggalLahir("12-08-2001");
        user.Setid_desa(01);
        user.SetEmail("udin@gmail.com");
        user.Setlevel("1");
@@ -63,6 +63,15 @@ public class SatgasCovidDesaApp {
        //method
        aduan.tampilkanDataAduanCovid();
        
+       AduanResponCovid aduanrespon = new AduanResponCovid();
+       aduanrespon.SetId_aduan_respon(55);
+       aduanrespon.SetId_laporan(20);
+       aduanrespon.SetId_user(01);
+       aduanrespon.Setisi("Tepapar Covid");
+       aduanrespon.Setcreate_date("02-02-2020");
+       // method
+       aduanrespon.tampilkanResponAduanCovid();
+       
        
        DataLogin datalogin = new DataLogin();
         datalogin.SetId_user(01);
@@ -101,36 +110,92 @@ public class SatgasCovidDesaApp {
        berita.Setdate("05-02-2020");
        //method
        berita.tampilkanDataBerita();
+       
+       Pasien pasien = new Pasien();
+       pasien.Setid_pasien(01);
+       pasien.SetNama("Ahmad udin");
+       pasien.Setjk("laki-laki");
+       pasien.SetTempatLahir("Banjarmasin");
+       pasien.SetNik(5214524232532222L);
+       pasien.SetTanggal_lahir("12-08-2020");
+       pasien.Setumur(19);
+       pasien.Setrt("01");
+       pasien.Setrw("03");
+       pasien.Setlingkungan("Rumah Sakit");
+       pasien.SetId_desa(11);
+       pasien.Setalamat("Desa 01");
+       pasien.SetId_user(01);
+       pasien.Setcreate_data("03-02-2020");
+       // method
+       
+       
+       Desa desa = new Desa();
+       desa.SetId_desa(11);
+       desa.Setnama_desa("Desa 01");
+       desa.SetId_kecamatan(15);
+       // method
+       
+       
+       Odp odp = new Odp();
+       odp.Setid(80);
+       odp.Setid_pasien(01);
+       odp.Settanggal("03-02-2020");
+       odp.Setketerangan("Positif Covid");
+       odp.SetId_user(01);
+       odp.Setcreate_data("03-02-2020");
+       odp.SetId_desa(11);
+       // method
+       
+       Pdp pdp = new Pdp();
+        pdp.Setid(80);
+        pdp.Setid_pasien(01);
+        pdp.Settanggal("03-02-2020");
+        pdp.Setketerangan("Positif Covid");
+        pdp.SetId_user(01);
+        pdp.Setcreate_data("03-02-2020");
+        pdp.SetId_desa(11);
+        // method
+       
+        
+        PositifCovid positif = new PositifCovid();
+        positif.Setid(11);
+        positif.Setid_pasien(01);
+        positif.Settanggal("03-02-2020");
+        positif.Setketerangan("Positif Covid");
+        positif.SetId_user(01);
+        positif.Setcreate_data("03-02-2020");
+        positif.SetId_desa(11);
+        // method
+        
+        
+        sembuhCovid sembuh = new sembuhCovid();
+        sembuh.Setid(11);
+        sembuh.Setid_pasien(01);
+        sembuh.Settanggal("03-02-2020");
+        sembuh.Setketerangan("Positif Covid");
+        sembuh.SetId_user(01);
+        sembuh.Setcreate_data("03-02-2020");
+        sembuh.SetId_desa(11);
+        //method
+        
+        
+        Meninggal meninggal = new Meninggal();
+        meninggal.Setid(11);
+        meninggal.Setid_pasien(01);
+        meninggal.Settanggal("05-02-2020");
+        meninggal.Setketerangan("Meninggal karena covid");
+        meninggal.SetId_user(01);
+        meninggal.Setcreate_data("06-02-2020");
+        meninggal.SetId_desa(11);
+        // method
+        
+        
+        
+    
     } 
     
    
 
-    public static void main7(String[] args) {
-       Pasien pasien = new Pasien();
-    }
-    public static void main8(String[] args) {
-       Desa desa = new Desa();
-    }
-    public static void main9(String[] args) {
-       Odp odp = new Odp();
-    }
-    public static void main10(String[] args) {
-        Pdp pdp = new Pdp();
-    }
-    public static void main11(String[] args) {
-        PositifCovid positif = new PositifCovid();
-    }
-    public static void main12(String[] args) {
-        sembuhCovid sembuh = new sembuhCovid();
-    }
-    public static void main13(String[] args) {
-        sembuhCovid sembuh = new sembuhCovid();
-    }
-    public static void main14(String[] args) {
-        Meninggal meninggal = new Meninggal();
-    }
-       
-       
        
        
        

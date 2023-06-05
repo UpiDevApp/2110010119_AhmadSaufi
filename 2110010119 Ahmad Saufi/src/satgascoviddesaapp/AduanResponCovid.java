@@ -15,6 +15,12 @@ public class AduanResponCovid {
     public String isi;
     public String create_date;
     
+    
+    
+    public void tampilkanResponAduanCovid(){
+    }
+    
+    
     public Integer Getid_aduan_respon(){
     return this.id_aduan_respon;
     }

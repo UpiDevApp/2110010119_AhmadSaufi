@@ -13,7 +13,7 @@ public class Pasien {
     public String nama;
     public String jk;
     public String tempat_lahir;
-    public Integer nik;
+    public long nik;
     public String tanggal_lahir;
     public Integer umur;
     public String rt;
@@ -56,10 +56,10 @@ public class Pasien {
     }
     
     
-    public Integer Getnik(){
+    public long Getnik(){
        return this.nik;
     }
-    public void SetNik(Integer Nik){
+    public void SetNik(long Nik){
         nik=Nik;
     }
     
@@ -67,7 +67,7 @@ public class Pasien {
     public String Gettanggal_lahir(){
        return this.tanggal_lahir;
     }
-    public void SetTtl(String Tempatlahir){
+    public void SetTanggal_lahir(String Tempatlahir){
        tempat_lahir=Tempatlahir;
     }
     
