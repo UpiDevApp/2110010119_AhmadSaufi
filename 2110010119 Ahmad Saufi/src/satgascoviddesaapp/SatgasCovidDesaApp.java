@@ -14,7 +14,10 @@ public class SatgasCovidDesaApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       // ada 15 Object
+       /* ada 15 Object di dalamnya ada beberapa data tidak real
+          data hanya di tampilkan saja
+       */
+       // data user
        User user = new User();
        user.SetId_user(01);
        user.SetNama("ahmad udin");
@@ -33,7 +36,7 @@ public class SatgasCovidDesaApp {
        //method
        user.tampilkanDataUser();
        
-       
+       // data kegiatan
        Kegiatan kegiatan = new Kegiatan();
        kegiatan.SetId_kegiatan(101);
        kegiatan.SetId_user(01);
@@ -50,7 +53,7 @@ public class SatgasCovidDesaApp {
        //method
        kegiatan.tampilkanDataKegiatan();
        
-       
+       // data aduan
        AduanCovid aduan = new AduanCovid(); 
        aduan.Setnomor_aduan(555);
        aduan.Setjudul("Pusat Aduan Covid");
@@ -63,6 +66,7 @@ public class SatgasCovidDesaApp {
        //method
        aduan.tampilkanDataAduanCovid();
        
+       // data aduan Respon
        AduanResponCovid aduanrespon = new AduanResponCovid();
        aduanrespon.SetId_aduan_respon(55);
        aduanrespon.SetId_laporan(20);
@@ -72,7 +76,7 @@ public class SatgasCovidDesaApp {
        // method
        aduanrespon.tampilkanResponAduanCovid();
        
-       
+       // data login
        DataLogin datalogin = new DataLogin();
         datalogin.SetId_user(01);
         datalogin.Setemail("udin@gmail.com");
@@ -81,6 +85,7 @@ public class SatgasCovidDesaApp {
         // method
         datalogin.tampilkanDataLogin();
        
+       // data bantuan
        Bantuan bantuan = new Bantuan(); 
        bantuan.SetId_user(01);
        bantuan.Setnama_penerima("ahmad udin");
@@ -93,13 +98,15 @@ public class SatgasCovidDesaApp {
        bantuan.Setid_admin(91);
        // method
        bantuan.tampilkanDataBantuan();
-        
+       
+       // data kategori
        Kategori kategori = new Kategori();
        kategori.SetId_kategori(001);
        kategori.Setkategori("POSITIF");
        // method
        kategori.TampilkanDataKategori();
        
+       // data Berita
        Berita berita = new Berita();
        berita.Setid_berita(10);
        berita.Setjudul("Penanganan Covid di desa");
@@ -111,6 +118,7 @@ public class SatgasCovidDesaApp {
        //method
        berita.tampilkanDataBerita();
        
+       //data pasien
        Pasien pasien = new Pasien();
        pasien.Setid_pasien(01);
        pasien.SetNama("Ahmad udin");
@@ -127,15 +135,17 @@ public class SatgasCovidDesaApp {
        pasien.SetId_user(01);
        pasien.Setcreate_data("03-02-2020");
        // method
+       pasien.tampilkanDataPasien();
        
-       
+       //data desa
        Desa desa = new Desa();
        desa.SetId_desa(11);
        desa.Setnama_desa("Desa 01");
        desa.SetId_kecamatan(15);
        // method
+       desa.TampilkanDataDesa();       
        
-       
+       // data odp
        Odp odp = new Odp();
        odp.Setid(80);
        odp.Setid_pasien(01);
@@ -145,6 +155,7 @@ public class SatgasCovidDesaApp {
        odp.Setcreate_data("03-02-2020");
        odp.SetId_desa(11);
        // method
+       odp.TampilkanDataOdp();
        
        Pdp pdp = new Pdp();
         pdp.Setid(80);
@@ -155,6 +166,7 @@ public class SatgasCovidDesaApp {
         pdp.Setcreate_data("03-02-2020");
         pdp.SetId_desa(11);
         // method
+        pdp.TampilkanDatapdp();
        
         
         PositifCovid positif = new PositifCovid();
@@ -166,6 +178,7 @@ public class SatgasCovidDesaApp {
         positif.Setcreate_data("03-02-2020");
         positif.SetId_desa(11);
         // method
+        positif.TampilkanDataPositif();
         
         
         sembuhCovid sembuh = new sembuhCovid();
@@ -177,6 +190,7 @@ public class SatgasCovidDesaApp {
         sembuh.Setcreate_data("03-02-2020");
         sembuh.SetId_desa(11);
         //method
+        sembuh.TampilkanDataSembuh();
         
         
         Meninggal meninggal = new Meninggal();
@@ -188,7 +202,7 @@ public class SatgasCovidDesaApp {
         meninggal.Setcreate_data("06-02-2020");
         meninggal.SetId_desa(11);
         // method
-        
+        meninggal.TampilkanDataMeninggal();
         
         
     

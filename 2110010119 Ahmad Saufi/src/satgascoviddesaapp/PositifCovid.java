@@ -17,6 +17,19 @@ public class PositifCovid {
     public String create_date;
     public Integer id_desa;
     
+        // method yg di return ke main
+    public void TampilkanDataPositif(){
+    System.out.println("");
+    System.out.println("id         :"+id);
+    System.out.println("id pasien  : "+id_pasien);
+    System.out.println("tanggal    : "+tanggal);
+    System.out.println("Keterangan :"+keterangan);
+    System.out.println("id user    :"+id_user);
+    System.out.println("Pembuatan :"+create_date);
+    System.out.println("id desa :"+id_desa);
+    
+    }
+    
     public Integer Getid() {
       return this.id;
     }

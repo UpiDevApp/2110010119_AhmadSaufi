@@ -27,6 +27,7 @@ public class User {
     
     // method
     public void tampilkanDataUser(){
+        System.out.println("");
         System.out.println("DATA PENGGUNA ");
         System.out.println("id             : "+ id_user);
         System.out.println("nama           : "+ nama);

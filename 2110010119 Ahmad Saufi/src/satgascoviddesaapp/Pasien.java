@@ -24,6 +24,25 @@ public class Pasien {
     public Integer id_user;
     public String create_date;
     
+     public void tampilkanDataPasien(){
+        System.out.println("");
+        System.out.println("id pasien         :"+ id_pasien);
+        System.out.println("nama pasien       :"+ nama);
+        System.out.println("jenis kelamin     : "+ jk);
+        System.out.println("tempat Lahir      : "+ tempat_lahir);
+        System.out.println("nik               : "+ nik);
+        System.out.println("tanggal lahir     : "+ tanggal_lahir);
+        System.out.println("umur              : "+ umur);
+        System.out.println("rt                : "+ rt);
+        System.out.println("rw                : "+ rw);
+        System.out.println("lingkungan        : "+ lingkungan);
+        System.out.println("id desa           : "+ id_desa);
+        System.out.println("alamat            : "+ alamat);
+        System.out.println("id user           : "+ id_user);
+        System.out.println("tanggal pembuatan : "+ create_date);
+        
+     }
+    
     public Integer Getid_pasien(){
        return this.id_pasien; 
     }

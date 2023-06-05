@@ -13,6 +13,7 @@ public class Kategori {
     public String kategori;
     
     public void TampilkanDataKategori(){
+        System.out.println("");
         System.out.println("id kategori "+ id_kategori);
         System.out.println("Kategori "+ kategori);
     }

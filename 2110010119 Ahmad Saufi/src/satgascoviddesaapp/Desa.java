@@ -13,6 +13,16 @@ public class Desa {
     public String nama_desa;
     public Integer id_kecamatan;
     
+    
+    public void TampilkanDataDesa(){
+    System.out.println("");
+    System.out.println("id desa "+id_desa);
+    System.out.println("nama desa "+nama_desa);
+    System.out.println("id kecamatan "+id_kecamatan);
+    
+    
+    }
+    
     public Integer Getid_desa(){
         return this.id_desa;
     }

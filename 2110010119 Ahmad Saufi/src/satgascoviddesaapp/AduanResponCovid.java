@@ -18,6 +18,12 @@ public class AduanResponCovid {
     
     
     public void tampilkanResponAduanCovid(){
+        System.out.println("");
+        System.out.println("id aduan respon :"+ id_aduan_respon);
+        System.out.println("id laporan      :"+id_laporan);
+        System.out.println("id user         :"+id_user);
+        System.out.println("isi             :"+isi);
+        System.out.println("pembuatan       :"+create_date);
     }
     
     
