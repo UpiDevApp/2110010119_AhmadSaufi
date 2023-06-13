@@ -13,6 +13,7 @@ public class User {
     private String nama;
     private long nik;
     private String jk;
+    public  String[] jenisk = {"laki-laki","perempuan"};
     private String tempat_lahir;
     private String alamat;
     private String tgl_lahir;
@@ -33,6 +34,7 @@ public class User {
         System.out.println("nama           : "+ nama);
         System.out.println("nik            : "+ nik);
         System.out.println("jenis kelamin  : "+ jk);
+        System.out.println("jenis kelamin  : " + jenisk[0]);
         System.out.println("Tempat Lahir   : "+ tempat_lahir);
         System.out.println("Tanggal Lahir  : "+ tgl_lahir);
         System.out.println("Alamat         : "+ alamat);
@@ -75,6 +77,8 @@ public class User {
     }
     public void Setjk(String jenis_kelamin){
         jk=jenis_kelamin;
+        
+        
     }
     
     

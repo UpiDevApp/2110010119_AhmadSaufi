@@ -17,6 +17,19 @@ public class SatgasCovidDesaApp {
        /* ada 15 Object di dalamnya ada beberapa data tidak real
           data hanya di tampilkan saja
        */
+         // data login
+       DataLogin datalogin = new DataLogin();
+        datalogin.SetId_user(01);
+        datalogin.Setemail("udin@gmail.com");
+        datalogin.Setakses("Aktif");
+        datalogin.Setusername("ahmadudin");
+        datalogin.Setpassword("admin");
+        // method
+        datalogin.tampilkanDataLogin();
+        
+        
+   
+        
        // data user
        User user = new User();
        user.SetId_user(01);
@@ -76,14 +89,7 @@ public class SatgasCovidDesaApp {
        // method
        aduanrespon.tampilkanResponAduanCovid();
        
-       // data login
-       DataLogin datalogin = new DataLogin();
-        datalogin.SetId_user(01);
-        datalogin.Setemail("udin@gmail.com");
-        datalogin.Setakses("Aktif");
-        datalogin.Setusername("ahmadudin");
-        // method
-        datalogin.tampilkanDataLogin();
+     
        
        // data bantuan
        Bantuan bantuan = new Bantuan(); 

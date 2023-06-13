@@ -9,16 +9,18 @@ package satgascoviddesaapp;
  * @author pc
  */
 public class DataLogin {
-    public String username;
+    private String username;
     public String email;
     public String akses;
     public Integer id_user;
+    private String password;
     
     public void tampilkanDataLogin(){
         System.out.println("");
         System.out.println("Data Login ");
         System.out.println("id user  :"+id_user);
-        System.out.println("username :"+username);
+        System.out.println("username :"+this.username);
+        System.out.println("password :"+this.password);
         System.out.println("email    :"+email);
         System.out.println("akses    :"+akses);
         
@@ -29,6 +31,13 @@ public class DataLogin {
     } 
     public void Setusername(String Username){
         username=Username;
+    }
+    
+    public String Getpassword(){
+        return this.password;
+    } 
+    public void Setpassword(String Password){
+        password=Password;
     }
     
     
